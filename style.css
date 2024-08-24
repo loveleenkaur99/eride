@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px; */
+    /* margin: 5px 15px 10px ; */
+    font-family:"Poppins", sans-serif;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    margin: 40px 40px 40px;
+    position: static;
+    border-radius: 20%;
+    border-color: red;
+}
+
+.logo img{
+    height: 50px;
+    width: 200px;
+}
+ul {
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    margin: 10px 50px 10px 30px  ;
+}
+.menu li a{
+    text-decoration: none;
+    color: #1BBE2C;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu a:hover{
+    color: black;
+}
+.language select{
+    color:#1BBE2C;
+    cursor: pointer;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    left: 80%;
+}
+.language select{
+    border: 0px;
+ }
+ .language select:hover{
+    color:black;
+ } 
+.cta img{
+   height: 100%;
+   width: 100%;
+   padding: 30px 30px 20px 20px ;
+}
+.bestselligscooters{
+    padding-bottom: 40px;
+}
+.bestselligscooters h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.bestselligscooters button{
+    border: 20px;
+    border-radius: 5px;
+    background-color:  #1BBE2C;
+    padding: 15px 45px 15px 45px;
+    color: white;
+    font-weight: light;
+}
+.bestselligscooters .btn{
+    text-align: center
+}
+.sectiononecontainer{
+    background-color: #F7F5F3;
+    
+}
+.section1{
+    display: flex;
+    text-align: center;
+    background-color: #F7F5F3;
+    font-weight:200;
+    padding: 40px 40px 20px;
+
+}
+.section1 p{
+    width: 90%;
+    padding-top: 15px;
+}
+.fastdelivery{
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    gap: 50px;
+}
+.easypayment{
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    gap: 20px;
+}
+.section2{
+    font-weight:200;
+    padding-bottom: 30px;
+    display: flex;
+    text-align: center;
+    background-color: #F7F5F3;
+    padding: 40px 40px 40px;
+}
+.safeandreliable{
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    gap: 20px;
+}
+.zeroemissions{
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    gap: 20px;
+}
+.sedtiontwocontainer{
+    display: flex;
+    padding: 40px 40px 40px;
+
+}
+.firstcoloum{
+    width: 50%;
+}
+.firstcoloum h1{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 45px;
+}
+.firstcoloum h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #666666;
+    text-align: center;
+
+}
+.firstcoloum p{
+    text-align: center;
+    font-weight:350;
+    color: grey;
+
+}
+.sectionthirdcontainer{
+    padding: 40px 40px 40px;
+    font-weight:300;
+    display: flex;
+    text-align: center;
+    background-color: #F7F5F3;
+}
+.sectionthirdcontainer h1{
+    margin-left: 20%;
+    color:black;
+}
+.sectionthirdcontainer p{
+    padding: 20px 0px 40px 0px;
+    padding-left: 42px;
+    text-align: center;
+    color: grey;
+}
+.sectionfourthcontainer  h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+}
